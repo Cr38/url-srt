@@ -1,0 +1,21 @@
+{
+  "name": "url-srt",
+  "version": "1.0.0",
+  "description": "url srtener",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "monk": "^7.3.3",
+    "nanoid": "^3.1.20",
+    "yup": "^0.32.9"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}

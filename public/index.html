@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <title>Url-Srt</title>
+</head>
+
+<body>
+  <h1>http://localhost:1337/</h1>
+  <p>shorten urls from cli</p>
+  <div class="window">
+    <div class="bar">
+      <div class="btn"></div>
+    </div>
+    <div class="body">
+      <pre><div class="comment"># run this command:</div><div class="prompt">$ <span class="command">curl -X POST -H 'Content-Type: application/json' -d '{"url":"http://example.com/", "slug":"yourslug"}' http://localhost:1337/url </span></div><div class="prompt">http://localhost:1337/yourslug</div></pre>
+      <pre><div class="comment"># or paste url here and press enter</div></pre>
+      <pre><div class="prompt">$ <input type="url" name="url" id="url" class="command" autocomplete="off" autofocus></div></pre>
+      <pre><div id="result" class="prompt"></div></pre>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
